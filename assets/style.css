@@ -1,0 +1,54 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+	position: relative;
+}
+
+html, body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: #D3D3D3;
+
+
+}
+
+img{width: 100px;}
+main{
+	
+	display: flex;
+	flex-wrap: wrap;
+	
+	width: 80%;
+
+
+}
+
+.cubo {
+	width:  50%;
+
+}
+
+
+section {
+	
+	background: #FFFFFF;
+	padding: 1%;
+	margin: 1%;
+	font-size: 80%;
+
+
+
+}
+
+#sec1 {
+	flex-wrap: wrap;
+	width: 40%;
+}	
+#sec2 {
+
+}	
+
+#sec2 div {
+	margin: 2%;
+}
